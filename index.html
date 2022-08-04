@@ -1,34 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./CSS/style.css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="./CSS/style.css" rel="stylesheet" />
     <title>David Lim's Portfolio</title>
-</head>
-<body>
-    <div class="wrapper clearfix">
-    <h1 class="clearfix">David Lim</h1>
 
-    <section>
-        <h2 class="clearfix">Hey!</h2>
-<p class="par">
-I am currently studying Software Engineering and here is my portfolio.
-</p>
-    </section>
-    
-<section>
-    <ul class="par clearfix">
-        <li class="list"><a href="https://davidlim93.github.io/Software-Engineering/">Blog</a></li>
-      </ul>
-</section>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example ">
 
-<Footer class="clearfix">
-    <a href="https://www.facebook.com/DavidLim93"><img id="logo" src="./CSS/Facebook_f_logo_(2021).png" alt="Facebook"></a>
 
-    <a href="https://www.linkedin.com/in/david-lim-16b4a1210/"><img id="logo2" src="./CSS/Linkedin_Logo.png" alt="Linkedin"></a>
-</Footer>
-</div>
-</body>
+    <nav class="navbar navbar-expand-lg bg-light clearfix bar sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand">David Lim</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://davidlim93.github.io/Portfolio/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blogs
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://davidlim93.github.io/Software-Engineering/">Why Software Engineering?</a>
+                </li>
+              </ul>
+           
+          </ul>
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://www.linkedin.com/in/david-lim-16b4a1210/" rel="nofollow" target="_blank">
+                <img id="logo1" src="./CSS/Linkedin_Logo.png" alt="Linkedin">
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://github.com/DavidLim93" rel="nofollow" target="_blank">
+                <img id="logo2" src="./CSS/github.png" alt="github">
+              </a>
+            </li>
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
+    <div class="wrapper">
+      <section >
+
+        <img class="selfie clearfix" src="./CSS/Pic.jpg" alt="Picture" width="200" height="250">
+
+        <h2 class="clearfix text">Hey!</h2>
+        
+        <p class="par text">
+          I am currently studying Software Engineering and here is my portfolio.
+        </p>
+        
+      </section>
+    </div>
+
+
+  </body>
 </html>
